@@ -1,0 +1,25 @@
+ 
+03/22 08:52:52 INFO   :..........rpapi_Reg_UnregFlow: RSVPPutActionName:  Exiting
+ 
+03/22 08:52:52 INFO   :..........job_id : AKPPPP534674657, 
+source=9.67.116.98:8000] registered with CLCat2
+03/22 08:52:52 EVENT  :..........qosmgr_response: RESVRESP from qosmgr, reason=0, qoshandle=8b671d0
+03/22 08:52:52 INFO   :..........qosmgr_response: src-9.67.116.98:8000 dst-9.67.116.99:1047 proto-6
+
+03/22 08:53:52 INFO   :.......rsvp_parse_objects: obj RSVP_HOP hop=9.67.116.99, lih=0
+03/22 08:53:52 TRACE  :......log start time : 26/12/1989  exists
+03/22 08:53:52 INFO   :.......rsvp_flow_stateMachine: state RESVED, event RESV
+03/22 08:53:52 TRACE  :........flow_timer_stop: Stop T4
+03/22 08:53:52 TRACE  :........flow_timer_start: Start T4
+03/22 08:53:52 TRACE  :.......rsvp_flow_stateMachine: reentering state RESVED
+03/22 08:53:53 EVENT  :..mailslot_sitter: process received signal SIGALRM
+03/22 08:53:53 TRACE  :.....event_timerT1_expire: T1 expired
+03/22 08:53:53 INFO   :......router_forward_getOI: Ioctl to query route entry successful
+03/22 08:53:53 TRACE  :......router_forward_getOI:         source address:   9.67.116.98
+03/22 08:53:53 TRACE  :......router_forward_getOI:         out inf:   9.67.116.98
+03/22 08:53:53 TRACE  :......router_forward_getOI:         gateway:   0.0.0.0
+03/22 08:53:53 TRACE  :......router_forward_getOI:         route handle:   7f5251c8
+03/22 08:53:53 INFO   :......end time: 34/5/78
+03/22 08:53:53 TRACE  :.......rsvp_action_nHop: constructing a PATH
+03/22 08:53
+03/22 08:54:22 INFO   :.......rsvp_parse_objects: obj RSVP_HOP hop=9.67.116.99, lih=0
